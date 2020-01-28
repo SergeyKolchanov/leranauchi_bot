@@ -5,3 +5,4 @@ services:
     image: leranauchi_bot:latest
     env_file:
       - bot.env
+

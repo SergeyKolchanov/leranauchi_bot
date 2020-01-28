@@ -6,3 +6,7 @@
 
 # Run service on swarm
 ```docker stack deploy -c stack.yaml lera_bot```
+
+## .. or run beta version, assuming we have proper BOT_TOKEN=.. in dev.env file
+```docker stack deploy -c stack.yaml -c stack.beta.yaml lera_bot```
+
